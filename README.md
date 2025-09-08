@@ -1,21 +1,61 @@
-# QR Code Generator in Python
-This project is a simple QR Code Generator built using Python.
-It allows users to create QR codes for URLs, text, or other data and save them as image files.
-Perfect for quickly creating QR codes for personal or professional use.
+📄 README.md
+# 📱 QR Code Generator
 
-🚀 Features
+A simple and responsive **QR Code Generator** web app built with **HTML, CSS, and JavaScript**.  
+It allows you to create QR codes from any text or URL, choose the size, and download the QR code as an image.
 
-Generate QR codes from text or URLs
-Save QR code as an image (.png)
-Lightweight and easy to use
-Customizable size and colors
-🛠 Technologies Used Python 3
+---
 
-qrcode library for QR code generation
-Pillow (PIL) for image processing
-▶ How It Works
+## 🚀 Features
+- Enter **any text or URL** to generate a QR code.
+- Select from multiple **sizes** (128x128, 192x192, 256x256).
+- **Download** the generated QR code as a PNG image.
+- Clean and responsive **UI/UX**.
+- Built with **pure HTML, CSS, and JavaScript** (no backend required).
 
-The user enters a URL or any text.
-The script generates a QR code.
-The QR code is saved as an image in the project folder.
-You can scan it using any QR scanner app.
+---
+
+## 🛠️ Tech Stack
+- **HTML5** – Structure
+- **CSS3** – Styling and responsive design
+- **JavaScript (ES6)** – Logic and functionality
+- **QRCode.js** – QR Code generation library
+
+---
+
+## 📂 Project Structure
+
+
+qr-code-generator/
+│── index.html # Main HTML file
+│── style.css # Styling (UI/UX)
+│── script.js # QR code logic
+
+
+---
+
+## 📸 Screenshot
+(Add a screenshot of your app here after running it)
+
+---
+
+## ⚡ Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/qr-code-generator.git
+
+
+Open index.html in your browser.
+
+Enter text/URL, choose size, and click Generate QR Code.
+
+Download the QR code image.
+
+📦 Installation (Optional for Development)
+
+No special setup required – runs directly in a browser.
+Just ensure you have internet access for loading the QRCode.js CDN.
+
+🖊️ License
+
+This project is licensed under the MIT License – feel free to use, modify, and distribute.
