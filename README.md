@@ -31,12 +31,6 @@ qr-code-generator/
 │── style.css # Styling (UI/UX)
 │── script.js # QR code logic
 
-
----
-
-## 📸 Screenshot
-(Add a screenshot of your app here after running it)
-
 ---
 
 ## ⚡ Usage
